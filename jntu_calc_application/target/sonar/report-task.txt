@@ -2,5 +2,5 @@ projectKey=calc
 serverUrl=http://localhost:9000
 serverVersion=9.5.0.56709
 dashboardUrl=http://localhost:9000/dashboard?id=calc
-ceTaskId=AYM2g9FHhIURU9UGZf92
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYM2g9FHhIURU9UGZf92
+ceTaskId=AYM2n9JIhIURU9UGZf93
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYM2n9JIhIURU9UGZf93
