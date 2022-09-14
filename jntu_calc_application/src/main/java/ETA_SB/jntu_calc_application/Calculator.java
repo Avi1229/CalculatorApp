@@ -2,7 +2,7 @@ package ETA_SB.jntu_calc_application;
 
 public class Calculator {
 	public double doAdd(double num1, double num2) {
-		//comment
+		
 		return num1 + num2;
 	}
 
@@ -11,7 +11,7 @@ public class Calculator {
 	}
 
 	public double doMul(double num1, double num2) {
-		//comment
+	
 		return num1 * num2;
 	}
 
