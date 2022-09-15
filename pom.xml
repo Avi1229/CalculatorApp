@@ -20,7 +20,8 @@
 		<sonar.projectKey>calc</sonar.projectKey>
 		<sonar.language>java</sonar.language>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>sqp_f3eaee495b4c6cb106411649dd7511947288a83b</sonar.login>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>password</sonar.password>
 
 	</properties>
 
@@ -52,6 +53,16 @@
 						</includes>
 					</configuration>
 				</plugin>
+				<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>2.0-beta-9</version>
+            <configuration>
+               <useReleaseProfile>false</useReleaseProfile>
+               <goals>deploy</goals>
+
+            </configuration>
+         </plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
@@ -126,8 +137,8 @@
 	<distributionManagement>
 		<repository>
 			<id>artifactory</id>
-			<name>Calc_Dev_Snapshot</name>
-			<url>http://localhost:8081/artifactory/Calc_Dev_Snapshot</url>
+			<name>calc</name>
+			<url>http://localhost:8081/artifactory/calc</url>
 		</repository>
 	</distributionManagement>
 </project>
