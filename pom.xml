@@ -102,6 +102,7 @@
 							<configuration>
 								<rules>
 									<!-- implementation is needed only for Maven 2 -->
+										<!-- implementation is needed only for Maven 2 -->
 									<rule>
 										<element>BUNDLE</element>
 										<limits>
